@@ -1,0 +1,13 @@
+[flake8]
+ignore =
+    # Ignore line length. Black largely handles this already.
+    # Any lines that are still too long are likely just long strings.
+    # Readability isn't served by chopping up e.g. long URL's.
+    E501
+    # Ignore line break before binary operator. Black handles this already.
+    # Operators are easier to spot at the start of a physical line.
+    W503
+select =
+    # Check for mutable default args. Those are typically undesirable.
+    M
+statistics = true

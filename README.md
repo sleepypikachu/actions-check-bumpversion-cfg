@@ -32,4 +32,3 @@ new_version = 1.0.0
 current_version = 3.0.0
 new_version = 2.1.0
 ```
-
