@@ -1,1 +1,3 @@
 *.swp
+*.iml
+**/__pycache__
