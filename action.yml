@@ -1,0 +1,5 @@
+name: 'Check bumpversion config'
+description: 'Check .bumpversion.cfg contains current_version and a newer new_version'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
